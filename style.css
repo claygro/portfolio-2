@@ -1,0 +1,317 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: url(ash-edmonds-0aWZdK8nK2I-unsplash.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  font-family: sans-serif;
+}
+.top {
+  display: flex;
+}
+.image {
+  width: 80px;
+  height: 80px;
+  border-radius: 50px;
+  margin-top: -20px;
+}
+.nav-section {
+  margin-top: 30px;
+  color: #3b5bdb;
+  display: flex;
+  justify-content: space-between;
+  cursor: default;
+  align-items: center;
+}
+.nav-left {
+  display: flex;
+  gap: 20px;
+}
+#navFirst {
+  text-decoration: underline red;
+}
+#right {
+  color: #15aabf;
+  margin-left: 20px;
+  font-size: 40px;
+}
+#left {
+  margin-right: 20px;
+}
+.first,
+.second,
+.third {
+  color: white;
+}
+.first:hover,
+.second:hover,
+.third:hover {
+  text-decoration: underline rgb(169, 4, 4);
+}
+.about {
+  color: cyan;
+
+  text-align: center;
+  font-size: 50px;
+}
+.about-top {
+  margin-top: 10rem;
+}
+.clay {
+  color: yellow;
+}
+#hired {
+  margin-right: 20px;
+  color: yellow;
+  background-color: #15aabf;
+  padding: 10px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 20px;
+  text-decoration: none;
+}
+#hired:hover {
+  background-color: #0f8595;
+}
+#hired:active {
+  background-color: #0c6c79;
+}
+.icon {
+  width: 30px;
+  height: 30px;
+  color: white;
+}
+.icon:hover {
+  background-image: url(matt-gross-9aCkSl6YcXg-unsplash.jpg);
+  background-size: cover;
+  background-position: center;
+  padding: 12px 12px;
+  border-radius: 10px;
+  width: 70px;
+  height: 80px;
+  box-shadow: 2px 4px 5px 2px black;
+}
+.all-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  gap: 20px;
+}
+.ending {
+  text-align: center;
+  margin-top: 10rem;
+}
+.contact {
+  font-size: 40px;
+  color: #98e5f0;
+  cursor: default;
+}
+#email {
+  width: 18rem;
+  height: 50px;
+  margin-bottom: 30px;
+}
+.btn {
+  padding: 10px 70px;
+  display: block;
+  margin-left: 35rem;
+  border: 1px solid black;
+  border-radius: 9px;
+  cursor: pointer;
+  background-color: #3b5bdb;
+  color: white;
+  font-size: 20px;
+}
+.btn:hover {
+  background-color: #344eb7;
+}
+.btn:active {
+  background-color: #24398b;
+}
+#btn {
+  background-color: #15aabf;
+  border: none;
+  padding: 10px 30px;
+  border-radius: 20px;
+  cursor: pointer;
+  color: white;
+  margin-top: 70px;
+  margin-bottom: 40px;
+}
+#btn:hover {
+  background-color: #0e8b9b;
+}
+#btn:active {
+  background-color: #07626e;
+}
+#secondBtn {
+  background-color: #15aabf;
+  border: none;
+  padding: 10px 30px;
+  border-radius: 20px;
+  cursor: pointer;
+  color: white;
+  margin-left: 30px;
+  margin-top: 70px;
+  margin-bottom: 40px;
+}
+#secondBtn:hover {
+  background-color: #0e8b9b;
+}
+#secondBtn:active {
+  background-color: #07626e;
+}
+.myself {
+  display: flex;
+  flex-direction: row;
+  margin-left: 50px;
+}
+#btn,
+#secondBtn {
+  box-shadow: 2px 3px 29px 1px black;
+}
+.project {
+  margin-top: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.Calculator,
+.number,
+.game,
+.digital {
+  cursor: pointer;
+  width: 90px;
+  height: 40px;
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color: #57b3c0;
+  box-shadow: 2px 3px 29px 1px black;
+}
+.Calculator:hover,
+.number:hover,
+.game:hover,
+.digital:hover {
+  background-color: #5296a1;
+}
+.Calculator:active,
+.number:active,
+.game:active,
+.digital:active {
+  background-color: #396970;
+}
+#some {
+  color: #e914de;
+  text-align: center;
+}
+#littleDown {
+  background-image: url(jeremy-bishop-G9i_plbfDgk-unsplash.jpg);
+  backdrop-filter: blur(30px);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-top: 50px;
+  padding: 90px 0;
+  width: 70rem;
+  margin-left: 60px;
+  border-radius: 30px;
+  box-shadow: 2px 3px 29px 1px black;
+}
+#btnTop {
+  background-color: #97dee7;
+  border: 1px solid black;
+  padding: 10px 30px;
+  cursor: pointer;
+  border-radius: 10px;
+  color: red;
+  font-size: 20px;
+  margin: 20px 30px;
+}
+#btnTop:hover {
+  background-color: #80bac2;
+}
+#btnTop:active {
+  background-color: #496d71;
+}
+#changeBackground {
+  color: white;
+  font-size: 30px;
+  text-align: center;
+  padding: 10px 20px;
+}
+#ocean {
+  background-color: #97dee7;
+  border: 1px solid black;
+  padding: 10px 30px;
+  cursor: pointer;
+  border-radius: 10px;
+  color: red;
+  font-size: 20px;
+  margin: 20px 30px;
+}
+#ocean:hover {
+  background-color: #80bac2;
+}
+#ocean:active {
+  background-color: #496d71;
+}
+#color {
+  background-color: #97dee7;
+  border: 1px solid black;
+  padding: 10px 30px;
+  cursor: pointer;
+  border-radius: 10px;
+  color: red;
+  font-size: 20px;
+  margin: 20px 30px;
+}
+#color:hover {
+  background-color: #80bac2;
+}
+#color:active {
+  background-color: #496d71;
+}
+#earth {
+  background-color: #97dee7;
+  border: 1px solid black;
+  padding: 10px 30px;
+  cursor: pointer;
+  border-radius: 10px;
+  color: red;
+  font-size: 20px;
+  margin: 20px 30px;
+}
+#earth:hover {
+  background-color: #80bac2;
+}
+#earth:active {
+  background-color: #496d71;
+}
+#nature {
+  background-color: #97dee7;
+  border: 1px solid black;
+  padding: 10px 30px;
+  cursor: pointer;
+  border-radius: 10px;
+  color: red;
+  font-size: 20px;
+  margin: 20px 30px;
+}
+#nature:hover {
+  background-color: #80bac2;
+}
+#nature:active {
+  background-color: #496d71;
+}
+#mode {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
